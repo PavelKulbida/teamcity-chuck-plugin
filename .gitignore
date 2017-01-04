@@ -1,0 +1,4 @@
+/chucktcplugin-server/target
+/.idea
+/artifacts/teamcity-chuck-plugin/server/chucktcplugin-server.jar
+/artifacts/teamcity-chuck-plugin/teamcity-plugin.xml

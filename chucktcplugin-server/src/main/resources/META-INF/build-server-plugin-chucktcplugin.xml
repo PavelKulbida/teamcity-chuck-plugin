@@ -2,6 +2,6 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 
 <beans default-autowire="constructor">
-    <bean id="chucktcplugin.chuckPageExtension" class="chucktcplugin.ChuckBuildPageExtension"/>
-    <bean id="chucktcplugin.chuckOverviewPageExtension" class="chucktcplugin.ChuckProjectPageExtension"/>
+    <bean id="chucktcplugin.chuckPageExtension" class="chucktcplugin.ChuckPageExtensionForBuild"/>
+    <bean id="chucktcplugin.chuckOverviewPageExtension" class="chucktcplugin.ChuckPageExtensionForProject"/>
 </beans>
